@@ -1,0 +1,20 @@
+{
+	"additions":[
+		"newmod-1.0.jar",
+		"newothermod-1.0.jar"
+	],
+	"updates":[
+		{
+			"original":"somemod-2.0.jar",
+			"updated":"somemod-2.1.jar"
+		},
+		{
+			"original":"someothermod-2.0.jar",
+			"updated":"someothermod-2.1.jar"
+		}
+	],
+	"deletions":[
+		"removedmod-3.0.jar",
+		"removedothermod-3.0.jar"
+	]
+}

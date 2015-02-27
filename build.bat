@@ -1,13 +1,15 @@
 @echo off
 title Modpack Builder
 cls
-echo Enter which side are you building:
-echo 1) Client
-echo 2) Server
-echo 3) Cancel
-set /p side=Side: 
-if "%side%" == "1" goto build_client
-if "%side%" == "2" goto build_server
+echo Enter what do you want to do:
+echo 1) Build Client
+echo 2) Build Server
+echo 3) Clean
+echo 4) Cancel
+set /p action=Action: 
+if "%action%" == "1" goto build_client
+if "%action%" == "2" goto build_server
+if "%action%" == "3" goto clean
 exit
 
 :build_server
@@ -26,3 +28,7 @@ XCOPY /s client build\client
 pause
 exit
 
+:clean
+rmdir /s /q build
+pause
+exit
