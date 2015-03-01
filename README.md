@@ -7,6 +7,8 @@ You can make any changes you want here, as long as everyone in the group is ok w
  
 If you don't want to wait for a release version of the modpack, you can download this repository as a .zip and use the build.bat file.
 
+*Warning: this modpack requires of previous installation of Forge 10.13.2.1291. This can be found in the downloads folder.*
+
 ## Folder structure
 
 The main repository is divided in three main folders: Client, Server and Common:
