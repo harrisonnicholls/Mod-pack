@@ -1,4 +1,4 @@
-# Mod-pack
+# Project Lambda - Theory of Everything
 
 Welcome to the GitHub page of our private modpack. This is manly used to create the modpack itself the whole group together.
 
