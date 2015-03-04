@@ -1,4 +1,4 @@
-# Project Lambda - Theory of Everything
+# Project Lambda - The Theory of Everything
 
 Welcome to the GitHub page of our private modpack. This is manly used to create the modpack itself the whole group together.
 
@@ -21,4 +21,4 @@ The main repository is divided in three main folders: Client, Server and Common:
 
 This program is manly used for testing and generating releases. It only combines the right files for every "platform" or "side", but is used for convenience.
 
-There are a couple actions available within this program: one for building on each side and another one to clean the *build* folder (which is ignored by the .gitignore).
+There are a couple of actions available within this program: one for building on each side and another one to clean the *build* folder (which is ignored by the .gitignore).
